@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="other_files/css.css">
+</head>
+<body>
+<div>
+    <form><input class="screen" type="text" ></form>
+</div>
+<div class="rows">
+    <input class="add" type="button" value="1" onclick="insert(1)">
+    <input class="add" type="button" value="2" onclick="insert(2)">
+    <input class="add" type="button" value="3" onclick="insert(3)">
+</div>
+<div class="rows">
+    <input class="add" type="button" value="4" onclick="insert(4)">
+    <input class="add" type="button" value="5" onclick="insert(5)">
+    <input class="add" type="button" value="6" onclick="insert(6)">
+</div>
+<div class="rows">
+    <input class="add" type="button" value="7" onclick="insert(7)">
+    <input class="add" type="button" value="8" onclick="insert(8)">
+    <input class="add" type="button" value="9" onclick="insert(9)">
+</div>
+<div class="rows">
+    <input class="add" type="button" value="0" onclick="insert(0)">
+    <input class="add" type="button" value="+" onclick="insert('+')">
+    <input class="add" type="button" value="-" onclick="insert('-')">
+</div>
+<div class="rows">
+    <input class="add" type="button" value="*" onclick="insert('*')">
+    <input class="add" type="button" value="/" onclick="insert('/')">
+    <input class="clear" type="button" value="CE" onclick="ce()" >
+</div>
+<div>
+    <input class="do_cal" type="button" value="=" onclick="eqaul()" style="width: 300px">
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="other_files/main.js"></script>
+</body>
+</html>
