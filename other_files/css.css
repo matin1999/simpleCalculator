@@ -10,5 +10,6 @@ input{
 .add{
     border: black;
     border-radius: 50%;
+    width: auto;
 
 }
