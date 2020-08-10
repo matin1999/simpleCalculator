@@ -1,6 +1,7 @@
 input{
     height: 100px;
     width: 100px;
+    border-radius: 20%;
 }
 .screen{
     height: 60px;
